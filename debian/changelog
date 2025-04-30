@@ -1,4 +1,4 @@
-linux-rk2501 (0.1.0-1) UNRELEASED; urgency=medium
+linux-rk2501 (6.1.115-1) UNRELEASED; urgency=medium
 
   * Add initial Debian packaging support
 

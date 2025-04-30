@@ -1,0 +1,4 @@
+[submodule "src"]
+	path = src
+	url = https://github.com/radxa/kernel.git
+	branch = linux-6.1-stan-rkr5.1
