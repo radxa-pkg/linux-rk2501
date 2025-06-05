@@ -21,6 +21,130 @@ Build-Depends: debhelper (>=12~),
             libyaml-dev:arm64,
             rsync,
 
+Package: linux-image-rock-pi-4a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK Pi 4A
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-pi-4a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK Pi 4A
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-pi-4a
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK Pi 4A
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-rock-pi-4b
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK Pi 4B
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-pi-4b
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK Pi 4B
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-pi-4b
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK Pi 4B
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-rock-pi-4c
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK Pi 4C
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-pi-4c
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK Pi 4C
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-pi-4c
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK Pi 4C
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-rock-pi-4a-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK Pi 4A+
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-pi-4a-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK Pi 4A+
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-pi-4a-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK Pi 4A+
+ This is the meta-package for Linux libc-dev.
+
 Package: linux-image-rock-pi-4b-plus
 Architecture: all
 Section: kernel
@@ -50,4 +174,66 @@ Provides: linux-libc-dev
 Depends: linux-libc-dev-${binary:Version}-rk2501,
          ${misc:Depends},
 Description: Radxa Linux libc-dev meta-package for ROCK Pi 4B+
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-rock-4c-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK 4C+
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-4c-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK 4C+
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-4c-plus
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK 4C+
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-rock-4se
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK 4SE
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-4se
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK 4SE
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-4se
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK 4SE
  This is the meta-package for Linux libc-dev.
