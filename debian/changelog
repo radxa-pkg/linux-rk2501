@@ -1,3 +1,10 @@
+linux-rk2501 (6.1.115-3) unstable; urgency=medium
+
+  [ Honglin Leng ]
+  * fix: Enable CONFIG_AP6XXX for ap6xxx wifi module dhd driver
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 22 Jul 2025 01:58:51 +0000
+
 linux-rk2501 (6.1.115-2) unstable; urgency=medium
 
   [ Honglin Leng ]
