@@ -5,16 +5,16 @@ Subject: [PATCH] feat: Radxa custom kernel config
 
 Signed-off-by: ZHANG Yuntian <yt@radxa.com>
 ---
- src/arch/arm64/configs/radxa_custom.config | 97 ++++++++++++++++++++++++++
- 1 file changed, 97 insertions(+)
+ src/arch/arm64/configs/radxa_custom.config | 102 +++++++++++++++++++++
+ 1 file changed, 102 insertions(+)
  create mode 100644 src/arch/arm64/configs/radxa_custom.config
 
 diff --git a/src/arch/arm64/configs/radxa_custom.config b/src/arch/arm64/configs/radxa_custom.config
 new file mode 100644
-index 000000000000..d9550fafb022
+index 000000000000..bfba54002349
 --- /dev/null
 +++ b/src/arch/arm64/configs/radxa_custom.config
-@@ -0,0 +1,97 @@
+@@ -0,0 +1,102 @@
 +# Do not create kernel debug package
 +CONFIG_DEBUG_INFO=n
 +
@@ -35,7 +35,7 @@ index 000000000000..d9550fafb022
 +CONFIG_VIDEO_OV7251=y
 +CONFIG_VIDEO_OV13850=y
 +
-+# The following config has security complecations:
++# The following config has security complications:
 +# https://forum.radxa.com/t/lack-of-concern-for-security-in-bsp-kernel/12210
 +# However, this is required for the following issues:
 +# * RK356X MPP hardware video acceleration was not working
@@ -112,6 +112,11 @@ index 000000000000..d9550fafb022
 +# Enable BCMDHD for WPA3 support
 +CONFIG_BCMDHD=m
 +CONFIG_AP6XXX=m
++
++# Fix build error: 'dw8250_do_set_termios' exported twice
++CONFIG_SERIAL_8250=y
++CONFIG_SERIAL_8250_DWLIB=y
++CONFIG_SERIAL_8250_DW=y
 -- 
-2.47.1
+2.39.5
 
