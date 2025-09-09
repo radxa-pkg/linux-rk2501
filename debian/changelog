@@ -1,3 +1,13 @@
+linux-rk2501 (6.1.115-5) unstable; urgency=medium
+
+  [ Honglin Leng ]
+  * fix: disable bcmdhd and brcmfamc
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 09 Sep 2025 09:58:38 +0000
+
 linux-rk2501 (6.1.115-4) unstable; urgency=medium
 
   [ ZHANG Yuntian ]
