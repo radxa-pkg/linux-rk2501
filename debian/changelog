@@ -1,3 +1,16 @@
+linux-rk2501 (6.1.115-8) unstable; urgency=medium
+
+  [ Jiali Chen ]
+  * fix: don't disable brcmfmac
+
+  [ dependabot[bot] ]
+  * chore(deps): bump actions/checkout from 5 to 6
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 27 Nov 2025 08:42:06 +0000
+
 linux-rk2501 (6.1.115-7) unstable; urgency=medium
 
   [ github-actions[bot] ]
