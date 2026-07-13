@@ -17,6 +17,37 @@ Build-Depends: debhelper (>=12~),
             libyaml-dev,
             rsync,
 
+Package: linux-image-rock-pi-s
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for ROCK Pi S
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-rock-pi-s
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for ROCK Pi S
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-rock-pi-s
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-rk2501,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for ROCK Pi S
+ This is the meta-package for Linux libc-dev.
+
 Package: linux-image-rock-pi-4a
 Architecture: all
 Section: kernel
