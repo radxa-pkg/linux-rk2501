@@ -1,3 +1,16 @@
+linux-rk2501 (6.1.115-9) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: limit package release to related SoC repo
+
+  [ Xinming Chen ]
+  * feat: add rock-pi-s configuration
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 23 Jul 2026 08:42:03 +0000
+
 linux-rk2501 (6.1.115-8) unstable; urgency=medium
 
   [ Jiali Chen ]
