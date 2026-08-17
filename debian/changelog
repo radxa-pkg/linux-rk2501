@@ -1,3 +1,15 @@
+linux-rk2501 (6.1.115-10) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Update pkg.conf.template
+
+  [ Xinming Chen ]
+  * feat: add rock-s0 configuration
+  * chore: update submodules
+  * feat: add radxa-rcore-rk3308-io configuration
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 17 Aug 2026 08:32:40 +0000
+
 linux-rk2501 (6.1.115-9) unstable; urgency=medium
 
   [ ZHANG Yuntian ]
