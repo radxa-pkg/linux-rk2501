@@ -1,3 +1,10 @@
+linux-rk2501 (6.1.115-12) unstable; urgency=medium
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Tue, 27 Oct 2026 02:57:51 +0000
+
 linux-rk2501 (6.1.115-11) unstable; urgency=medium
 
   [ github-actions[bot] ]
